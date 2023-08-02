@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Tinos', serif; */
+  font-family: 'Manjari', sans-serif;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.quill > .ql-container > .ql-editor.ql-blank::before{
+  font-size: 20px;
+  color: #c0c0c0;
+}
+
+.ql-tooltip{
+  left: 15px!important;
+}
+
+.ql-editor {
+    min-height: calc(100vh - 150px);
+    max-height: calc(100vh - 50px);
+}
